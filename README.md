@@ -19,17 +19,21 @@ Method
 5. Layered an OpenStreetMap basemap underneath for geographic context
 
 
-Result
+Result: 
+
 Darker areas indicate a higher concentration of reported incidents within the search radius; lighter areas indicate fewer.
 
-Findings
+Findings:
+
 1. Density is not evenly distributed — it concentrates most heavily along major road corridors and around the central/downtown area, consistent with higher foot and vehicle traffic in those zones
 2. The single strongest hotspot centers on Chicago's Loop / River North area, near the confluence of the Chicago River branches (approx. 41.89°N, -87.63°W) — consistent with the area's high density of foot traffic, retail, and transit
 3. Density drops off noticeably toward the outer suburbs within this dataset's coverage area
 
-Tools
+Tools:
+
 QGIS · Kernel Density Estimation (Heatmap) · CSV/Delimited Text layers · Coordinate reference system reprojection
 
-Notes / limitations
-This sample reflects reported incidents only, not verified or adjudicated ones, per the source dataset's own disclaimer
-A 500m radius and 50m resolution were chosen for a readable citywide view; a smaller radius would reveal more localized detail at the cost of a noisier map
+Notes / limitations:
+
+1. This sample reflects reported incidents only, not verified or adjudicated ones, per the source dataset's own disclaimer
+2. A 500m radius and 50m resolution were chosen for a readable citywide view; a smaller radius would reveal more localized detail at the cost of a noisier map
